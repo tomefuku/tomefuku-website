@@ -559,6 +559,7 @@
   .about-wrap{display:grid;grid-template-columns:1fr;gap:34px;}
   @media(min-width:860px){.about-wrap{grid-template-columns:0.85fr 1.15fr;align-items:center;}}
   .about-wrap .ph{aspect-ratio:3/4;}
+  .about-wrap--text-only{grid-template-columns:1fr !important;max-width:720px;}
   .about-name{font-size:13px;color:var(--gold);letter-spacing:.06em;margin-bottom:10px;}
   .about-wrap h2{font-size:clamp(22px,3.2vw,28px);margin-bottom:18px;font-family:"Fraunces",serif;font-weight:500;}
   .about-wrap p{color:var(--ink-soft);font-size:14.5px;margin-bottom:14px;}
@@ -570,11 +571,12 @@
   .message-wrap{max-width:720px;margin:0 auto;}
   .message-lead{
     font-family:"Fraunces",serif;font-weight:500;
-    font-size:clamp(24px,4vw,34px);
+    font-size:clamp(18px,4.8vw,34px);
     line-height:1.5;
     text-align:center;
     color:var(--green-deep);
     margin-bottom:48px;
+    white-space:nowrap;
   }
   .message-body p{
     color:var(--ink-soft);
@@ -594,16 +596,16 @@
     border-bottom:1px solid var(--line);
   }
   .message-signoff{color:var(--ink-soft);font-size:14.5px;text-align:right;margin-top:36px;}
-  .message-photo-wrap{margin:64px auto 0;max-width:300px;text-align:center;}
+  .message-photo-wrap{margin:64px auto 0;max-width:460px;text-align:center;}
   .message-photo-wrap .ph{aspect-ratio:3/4;}
-  .message-name{margin-top:20px;}
+  .message-name{margin-top:22px;}
   .message-name .m-role{font-size:12px;letter-spacing:.14em;color:var(--gold);margin-bottom:6px;}
   .message-name .m-person{font-size:19px;font-weight:700;letter-spacing:.04em;margin-bottom:6px;}
   .message-name .m-brand{font-family:"Fraunces",serif;font-size:12px;letter-spacing:.14em;color:var(--ink-soft);}
   @media(max-width:640px){
     .message-body p{font-size:14.5px;line-height:1.9;}
     .message-emphasis{margin:38px 0;padding:26px 0;}
-    .message-photo-wrap{max-width:220px;margin-top:48px;}
+    .message-photo-wrap{max-width:100%;margin-top:48px;}
   }
   .company-info{
     margin-top:56px;
@@ -676,7 +678,7 @@
 <div id="introScreen" class="intro-screen" style="background:#122820;">
   <div class="intro-inner">
     <div class="intro-glow"></div>
-    <img src="img01.png?v=20261028f" alt="留福美装" class="intro-logo">
+    <img src="img01.png?v=20261028h" alt="留福美装" class="intro-logo">
     <div class="intro-line"></div>
     <div class="intro-word">TOMEFUKU BISO</div>
   </div>
@@ -685,7 +687,7 @@
 <header>
   <div class="wrap nav-row">
     <a href="#top" class="logo-mark">
-      <img src="img02.png?v=20261028f" alt="留福美装" width="34" height="23" style="width:34px;height:auto;">
+      <img src="img02.png?v=20261028h" alt="留福美装" width="34" height="23" style="width:34px;height:auto;">
       <span>留福美装<br><span class="logo-sub">TOMEFUKU BISO</span></span>
     </a>
     <nav class="main-nav" aria-label="メインメニュー">
@@ -693,7 +695,7 @@
       <a href="#price">PRICE</a>
       <a href="#works">WORKS</a>
       <a href="#faq">FAQ</a>
-      <a href="#about">ABOUT</a>
+      <a href="#message">ABOUT</a>
       <a href="#contact">CONTACT</a>
     </nav>
     <div class="header-cta">
@@ -713,7 +715,7 @@
   <a href="#price">料金</a>
   <a href="#works">施工事例</a>
   <a href="#faq">よくあるご質問</a>
-  <a href="#about">会社案内</a>
+  <a href="#message">会社案内</a>
   <a href="#contact">お問い合わせ</a>
 </div>
 
@@ -722,9 +724,9 @@
   <!-- 01 HERO -->
   <section class="hero">
     <div class="ph dark hero-photo">
-      <img src="img03.jpg?v=20261028f" alt="留福美装 現場での作業風景" style="width:100%;height:100%;object-fit:cover;display:block;">
+      <img src="img03.jpg?v=20261028h" alt="留福美装 現場での作業風景" style="width:100%;height:100%;object-fit:cover;display:block;">
     </div>
-    <div class="hero-watermark" aria-hidden="true"><img src="img01.png?v=20261028f" alt=""></div>
+    <div class="hero-watermark" aria-hidden="true"><img src="img01.png?v=20261028h" alt=""></div>
     <div class="wrap hero-inner">
       <span class="hero-eyebrow wordmark">TOMEFUKU BISO</span>
       <h1>綺麗と共に、<br>福をお届けします。</h1>
@@ -875,8 +877,8 @@
         <div class="work-card" data-cat="エアコン">
           <div class="ph work-photo">
             <div class="ba-split">
-              <img src="img05.jpg?v=20261028f" alt="業務用エアコン清掃 ドレンパン施工前">
-              <img src="img06.jpg?v=20261028f" alt="業務用エアコン清掃 ドレンパン施工後">
+              <img src="img05.jpg?v=20261028h" alt="業務用エアコン清掃 ドレンパン施工前">
+              <img src="img06.jpg?v=20261028h" alt="業務用エアコン清掃 ドレンパン施工後">
             </div>
             <span class="ba-label before">BEFORE</span><span class="ba-label after">AFTER</span>
           </div>
@@ -885,8 +887,8 @@
         <div class="work-card" data-cat="エアコン">
           <div class="ph work-photo">
             <div class="ba-split">
-              <img src="img07.jpg?v=20261028f" alt="業務用エアコン清掃 熱交換器施工前">
-              <img src="img08.jpg?v=20261028f" alt="業務用エアコン清掃 熱交換器施工後">
+              <img src="img07.jpg?v=20261028h" alt="業務用エアコン清掃 熱交換器施工前">
+              <img src="img08.jpg?v=20261028h" alt="業務用エアコン清掃 熱交換器施工後">
             </div>
             <span class="ba-label before">BEFORE</span><span class="ba-label after">AFTER</span>
           </div>
@@ -895,8 +897,8 @@
         <div class="work-card" data-cat="店舗">
           <div class="ph work-photo">
             <div class="ba-split">
-              <img src="img09.jpg?v=20261028f" alt="店舗清掃 施工前">
-              <img src="img10.jpg?v=20261028f" alt="店舗清掃 施工後">
+              <img src="img09.jpg?v=20261028h" alt="店舗清掃 施工前">
+              <img src="img10.jpg?v=20261028h" alt="店舗清掃 施工後">
             </div>
             <span class="ba-label before">BEFORE</span><span class="ba-label after">AFTER</span>
           </div>
@@ -905,8 +907,8 @@
         <div class="work-card" data-cat="ハウスクリーニング">
           <div class="ph work-photo">
             <div class="ba-split">
-              <img src="img11.jpg?v=20261028f" alt="ハウスクリーニング キッチンシンク施工前">
-              <img src="img12.jpg?v=20261028f" alt="ハウスクリーニング キッチンシンク施工後">
+              <img src="img11.jpg?v=20261028h" alt="ハウスクリーニング キッチンシンク施工前">
+              <img src="img12.jpg?v=20261028h" alt="ハウスクリーニング キッチンシンク施工後">
             </div>
             <span class="ba-label before">BEFORE</span><span class="ba-label after">AFTER</span>
           </div>
@@ -915,8 +917,8 @@
         <div class="work-card" data-cat="ハウスクリーニング">
           <div class="ph work-photo">
             <div class="ba-split">
-              <img src="img13.jpg?v=20261028f" alt="ハウスクリーニング ガスコンロ施工前">
-              <img src="img14.jpg?v=20261028f" alt="ハウスクリーニング ガスコンロ施工後">
+              <img src="img13.jpg?v=20261028h" alt="ハウスクリーニング ガスコンロ施工前">
+              <img src="img14.jpg?v=20261028h" alt="ハウスクリーニング ガスコンロ施工後">
             </div>
             <span class="ba-label before">BEFORE</span><span class="ba-label after">AFTER</span>
           </div>
@@ -925,8 +927,8 @@
         <div class="work-card" data-cat="空室">
           <div class="ph work-photo">
             <div class="ba-split">
-              <img src="img15.jpg?v=20261028f" alt="空室クリーニング 浴室・トイレ施工前">
-              <img src="img16.jpg?v=20261028f" alt="空室クリーニング 浴室・トイレ施工後">
+              <img src="img15.jpg?v=20261028h" alt="空室クリーニング 浴室・トイレ施工前">
+              <img src="img16.jpg?v=20261028h" alt="空室クリーニング 浴室・トイレ施工後">
             </div>
             <span class="ba-label before">BEFORE</span><span class="ba-label after">AFTER</span>
           </div>
@@ -935,8 +937,8 @@
         <div class="work-card" data-cat="空室">
           <div class="ph work-photo">
             <div class="ba-split">
-              <img src="img17.jpg?v=20261028f" alt="空室クリーニング 浴槽施工前">
-              <img src="img18.jpg?v=20261028f" alt="空室クリーニング 浴槽施工後">
+              <img src="img17.jpg?v=20261028h" alt="空室クリーニング 浴槽施工前">
+              <img src="img18.jpg?v=20261028h" alt="空室クリーニング 浴槽施工後">
             </div>
             <span class="ba-label before">BEFORE</span><span class="ba-label after">AFTER</span>
           </div>
@@ -944,9 +946,9 @@
         </div>
         <div class="work-card" data-cat="新築美装">
           <div class="work-photo-stack">
-            <img src="img25.jpg?v=20261028f" alt="食堂の改装後美装 店内の施工事例(東京都葛飾区)">
-            <img src="img26.jpg?v=20261028f" alt="食堂の厨房ステンレス美装 施工後の仕上がり">
-            <img src="img27.jpg?v=20261028f" alt="食堂の厨房ステンレス美装 シンク周りの施工事例">
+            <img src="img25.jpg?v=20261028h" alt="食堂の改装後美装 店内の施工事例(東京都葛飾区)">
+            <img src="img26.jpg?v=20261028h" alt="食堂の厨房ステンレス美装 施工後の仕上がり">
+            <img src="img27.jpg?v=20261028h" alt="食堂の厨房ステンレス美装 シンク周りの施工事例">
           </div>
           <div class="work-meta">
             <div class="cat">改装後美装</div>
@@ -956,7 +958,7 @@
         </div>
         <div class="work-card" data-cat="エアコン">
           <div class="ph work-photo">
-            <img src="img28.jpg?v=20261028f" alt="公共施設の業務用エアコン洗浄 日本年金機構様の施設にて77台を一括対応" style="width:100%;height:100%;object-fit:cover;display:block;">
+            <img src="img28.jpg?v=20261028h" alt="公共施設の業務用エアコン洗浄 日本年金機構様の施設にて77台を一括対応" style="width:100%;height:100%;object-fit:cover;display:block;">
           </div>
           <div class="work-meta">
             <div class="cat">業務用エアコン洗浄</div>
@@ -1217,8 +1219,8 @@
               <li>簡易的な拭き掃除</li>
             </ul>
             <div class="sd-photos">
-              <figure><img src="img20.jpg?v=20261028f" alt="マンション日常清掃 手すり拭き作業"><figcaption>手すり拭き作業</figcaption></figure>
-              <figure><img src="img21.jpg?v=20261028f" alt="マンション日常清掃 インターホン清掃"><figcaption>インターホン清掃</figcaption></figure>
+              <figure><img src="img20.jpg?v=20261028h" alt="マンション日常清掃 手すり拭き作業"><figcaption>手すり拭き作業</figcaption></figure>
+              <figure><img src="img21.jpg?v=20261028h" alt="マンション日常清掃 インターホン清掃"><figcaption>インターホン清掃</figcaption></figure>
             </div>
 
             <h4>マンション定期清掃</h4>
@@ -1227,8 +1229,8 @@
               <li>外部の高圧洗浄</li>
             </ul>
             <div class="sd-photos">
-              <figure><img src="img22.jpg?v=20261028f" alt="マンション定期清掃 施工前"><figcaption>BEFORE</figcaption></figure>
-              <figure><img src="img23.jpg?v=20261028f" alt="マンション定期清掃 施工後"><figcaption>AFTER</figcaption></figure>
+              <figure><img src="img22.jpg?v=20261028h" alt="マンション定期清掃 施工前"><figcaption>BEFORE</figcaption></figure>
+              <figure><img src="img23.jpg?v=20261028h" alt="マンション定期清掃 施工後"><figcaption>AFTER</figcaption></figure>
             </div>
 
             <h4>こんな方におすすめ</h4>
@@ -1480,7 +1482,7 @@
         <p class="message-signoff">代表　神原瑠翔</p>
 
         <div class="message-photo-wrap">
-          <div class="ph"><img src="img29.jpeg?v=20261028f" alt="留福美装 代表 神原瑠翔" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+          <div class="ph"><img src="img29.jpeg?v=20261028h" alt="留福美装 代表 神原瑠翔" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
           <div class="message-name">
             <div class="m-role">代表</div>
             <div class="m-person">神原 瑠翔</div>
@@ -1493,15 +1495,6 @@
 
   <!-- 08 ABOUT -->
   <section class="section-pad" id="about">
-    <div class="wrap about-wrap">
-      <div class="ph"><img src="img29.jpeg?v=20261028f" alt="留福美装 代表 神原瑠翔" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
-      <div>
-        <div class="about-name">代表 神原瑠翔</div>
-        <h2>現場に立ち続けるということ。</h2>
-        <p>元プロキックボクサーとして培った、逃げない姿勢と体力。引退後、清掃という仕事に出会い、留福美装を立ち上げました。</p>
-        <p>リングの上でもらった「一つひとつ、妥協しない」という価値観は、清掃の現場でも変わりません。汚れの向こうにいるお客様の暮らしを思いながら、今日も現場に立っています。</p>
-      </div>
-    </div>
     <div class="wrap">
       <div class="company-info">
         <div class="ci-row">
@@ -1684,7 +1677,7 @@
 <footer>
   <div class="wrap footer-row">
     <div style="display:flex;align-items:center;gap:16px;">
-      <img src="img24.png?v=20261028f" alt="留福美装 TOMEFUKU BISO" style="width:64px;height:auto;">
+      <img src="img24.png?v=20261028h" alt="留福美装 TOMEFUKU BISO" style="width:64px;height:auto;">
       <div>
         <div style="font-weight:700;color:var(--ink);">留福美装</div>
         〒330-0844 埼玉県さいたま市大宮区桜木町2丁目3番地 大宮マルイ7階<br>
@@ -1694,7 +1687,7 @@
     <div class="footer-nav">
       <a href="#service">SERVICE</a>
       <a href="#works">WORKS</a>
-      <a href="#about">ABOUT</a>
+      <a href="#message">ABOUT</a>
       <a href="#contact">CONTACT</a>
     </div>
   </div>
