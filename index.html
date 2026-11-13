@@ -688,6 +688,17 @@
   .footer-row{display:flex;flex-direction:column;gap:18px;font-size:12.5px;color:var(--ink-soft);}
   @media(min-width:760px){.footer-row{flex-direction:row;justify-content:space-between;align-items:center;}}
   .footer-nav{display:flex;flex-wrap:wrap;gap:16px;}
+
+  /* ---------- クリニック清掃専門サイトへの案内 ---------- */
+  .hero-clinic{flex-basis:100%;display:inline-flex;flex-direction:column;gap:4px;align-self:flex-start;margin-top:10px;padding:14px 20px;max-width:440px;border:1px solid var(--gold);background:rgba(18,40,32,.72);color:#fff;transition:background-color .25s;}
+  .hero-clinic:hover{background:rgba(18,40,32,.92);}
+  .hero-clinic .hc-label{font-size:11.5px;letter-spacing:.06em;color:var(--gold);}
+  .hero-clinic .hc-main{font-size:15.5px;font-weight:700;letter-spacing:.02em;}
+  .hero-clinic .hc-arrow{margin-left:8px;color:var(--gold);}
+  .clinic-guide{padding-top:64px;padding-bottom:64px;}
+  .clinic-guide .kicker{display:block;margin-bottom:14px;}
+  .main-nav a.nav-clinic{color:var(--green);font-weight:700;border-bottom:1px solid var(--gold);}
+  .mobile-menu a.mm-clinic{color:var(--gold);font-weight:700;}
 </style>
 </head>
 <body>
@@ -714,6 +725,7 @@
       <a href="#faq">FAQ</a>
       <a href="#message">ABOUT</a>
       <a href="#contact">CONTACT</a>
+      <a href="https://clinic.tomefuku.jp/" class="nav-clinic">CLINIC</a>
     </nav>
     <div class="header-cta">
       <a class="tel-link" href="tel:09013362873">090-1336-2873</a>
@@ -734,6 +746,7 @@
   <a href="#faq">よくあるご質問</a>
   <a href="#message">会社案内</a>
   <a href="#contact">お問い合わせ</a>
+  <a href="https://clinic.tomefuku.jp/" class="mm-clinic">クリニック・医院の方はこちら</a>
 </div>
 
 <main id="top">
@@ -751,9 +764,23 @@
       <div class="hero-actions">
         <a class="btn" href="#price">料金・サービスを見る</a>
         <a class="btn outline" href="#contact">無料見積もり</a>
+        <a class="hero-clinic" href="https://clinic.tomefuku.jp/">
+          <span class="hc-label">クリニック・病院・歯科医院のご担当者様へ</span>
+          <span class="hc-main">クリニック清掃専門サイトはこちら<span class="hc-arrow">→</span></span>
+        </a>
       </div>
     </div>
     <div class="scroll-cue"><span>SCROLL</span><span class="line"></span></div>
+  </section>
+
+  <!-- 01.5 CLINIC GUIDE -->
+  <section class="section-pad cta-banner clinic-guide">
+    <div class="wrap">
+      <span class="kicker" style="color:var(--gold);">FOR CLINICS</span>
+      <h2>院長先生・事務長様・医療法人のご担当者様へ</h2>
+      <p>クリニック・医院・歯科医院・病院の清掃は、専門サイトで詳しくご案内しています。<br>床洗浄・ワックス、剥離洗浄、カーペット洗浄、業務用エアコン洗浄の料金や施工事例、複数院をまとめる定期清掃プランをご覧いただけます。</p>
+      <a class="btn" href="https://clinic.tomefuku.jp/">クリニック清掃専門サイトを見る</a>
+    </div>
   </section>
 
   <!-- 02 SERVICE / PRICE MENU -->
